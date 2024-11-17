@@ -84,7 +84,7 @@ if selected is not None:
     st.markdown(f"{selected + 1} star(s).")
 
 import time
-time.sleep(0.3)
+time.sleep(0.15)
 st.balloons()
 
 pg = st.navigation(pages)
